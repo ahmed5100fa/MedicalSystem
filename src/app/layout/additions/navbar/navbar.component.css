@@ -1,5 +1,6 @@
 nav {
   background: #fff;
+  z-index: 1000;
 }
 
 a{
