@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
     navText: ['', ''],
     responsive: {
     0: { items: 1 },
-    200: { items: 2 },
+    400: { items: 2 },
     800: { items: 3 }
     },
     nav: true,
