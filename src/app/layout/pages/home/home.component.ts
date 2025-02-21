@@ -20,7 +20,8 @@ export class HomeComponent implements OnInit {
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
-    400: { items: 2 },
+    0: { items: 1 },
+    200: { items: 2 },
     800: { items: 3 }
     },
     nav: true,
