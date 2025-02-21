@@ -126,7 +126,7 @@
   .step-number {
     position: absolute;
     top: 0;
-    right: 1rem;
+    left: 1rem;
     width: 30px;
     height: 30px;
     background-color: #5fb4a2;
