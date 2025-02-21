@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     responsive: {
     0: { items: 1 },
     400: { items: 2 },
-    800: { items: 3 }
+    900: { items: 3 }
     },
     nav: true,
     };
