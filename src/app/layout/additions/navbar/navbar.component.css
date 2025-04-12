@@ -1,12 +1,11 @@
- nav {
-  background: #fff;
-  z-index: 1000;
+nav {
+   z-index: 1000;
 }
 
 a{
   color: var(--nav-links-color);
 }
-
+ 
 .search-container {
   position: relative;
   display: flex;
@@ -15,7 +14,7 @@ a{
 }
 
 .search-input {
-  height: 50px;
+  height: 40px;
   border-radius: 30px;
   padding-left: 40px;
   padding-right: 20px;
@@ -69,7 +68,17 @@ a{
  
 
 .navcolor{
-  background-color:rgba(255, 255, 255, 0.1) ;
+  background-color: hsla(180, 54%, 16%, 0.854) ;
   backdrop-filter: blur(50px);
  }
- 
+ .NavLinkColor{
+  color: white;
+  transition: all 2s ;
+
+ }
+ .NavLinkColor :hover{
+  color:  hsla(180, 54%, 16%, 0.854);
+  background-color: white;
+ }
+ .activeLink{
+  color:  hsla(180, 54%, 16%, 0.854); }
