@@ -5,3 +5,55 @@
   --works-text-color : #4a7374;
   --card-title-color : #5fb4a2;
 }
+
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 5 20 / var(--tw-bg-opacity));
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+
+
+
+/* styles.css */
+:root {
+  --bg-color: #ffffff;
+  
+}
+
+.dark-mode {
+  --tw-bg-opacity: 1;
+  --bg-color: rgb(2 5 20 / var(--tw-bg-opacity));
+   color: #fff;
+   
+}
+
+body {
+  background-color: var(--bg-color);
+  
+  transition: background-color 1s;
+} 
+
+.dark-icon {
+  position: fixed;
+  bottom: 20px; /* المسافة من أسفل الشاشة */
+  right: 20px; /* المسافة من يمين الشاشة */
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000; /* اجعلها فوق جميع العناصر */
+  transition: transform .5s, background-color .5s;
+}
+
+.dark-icon:hover {
+  background-color: #555;
+  transform: scale(1.1); /* تكبير عند التمرير */
+}
+
+.dark-icon i {
+  font-size: 25px; /* حجم الأيقونة */
+}
