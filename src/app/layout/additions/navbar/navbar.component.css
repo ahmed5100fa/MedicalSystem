@@ -5,6 +5,12 @@ nav {
 a{
   color: var(--nav-links-color);
 }
+ .navIcon{
+  background-image: url("./../../../../../public/logo.png");
+background-size: cover;
+height: 40px;
+width:95px;
+ }
  
 .search-container {
   position: relative;
@@ -82,3 +88,9 @@ a{
  }
  .activeLink{
   color:  hsla(180, 54%, 16%, 0.854); }
+
+
+
+  /* ------------- */
+
+ 

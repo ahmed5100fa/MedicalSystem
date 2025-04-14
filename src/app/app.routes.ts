@@ -1,3 +1,4 @@
+import { AppointmentComponent } from './layout/pages/appointment/appointment.component';
 import { ContactUsComponent } from './layout/pages/contact-us/contact-us.component';
 import { ReSearchComponent } from './layout/pages/re-search/re-search.component';
 import { MedicinesComponent } from './layout/pages/medicines/medicines.component';
@@ -13,6 +14,7 @@ export const routes: Routes = [
   {path: 'home' , component: HomeComponent , title: 'Home'},
   {path: 'login' , component: LoginComponent , title: 'Login'},
   {path: 'signup' , component: SignupComponent , title: 'signup'},
+  {path: 'Appointment' , component: AppointmentComponent , title: 'Appointment'},
   {path: 'Medicines' , component: MedicinesComponent , title: 'Medicines'},
   {path: 'Research' , component: ReSearchComponent , title: 'Research'},
   {path: 'Careers' , component: CareersComponent , title: 'Careers'},
